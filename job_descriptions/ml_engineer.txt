@@ -1,0 +1,28 @@
+python
+machine learning
+deep learning
+tensorflow
+pytorch
+scikit-learn
+data preprocessing
+feature engineering
+model training
+model evaluation
+model deployment
+MLOps
+cloud platforms (e.g., AWS SageMaker, Azure ML, GCP AI Platform)
+Kubernetes
+Docker
+API development
+software engineering principles
+data structures
+algorithms
+mathematics (linear algebra, calculus, probability, statistics)
+big data technologies (e.g., Spark)
+SQL
+version control (e.g., Git)
+experiment tracking
+monitoring
+performance tuning
+natural language processing (NLP)
+computer vision

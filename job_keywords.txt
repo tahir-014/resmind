@@ -1,0 +1,10 @@
+python
+machine learning
+tensorflow
+data analysis
+flask
+sql
+git
+communication
+deep learning
+nlp

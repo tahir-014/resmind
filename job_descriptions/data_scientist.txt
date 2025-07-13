@@ -1,0 +1,26 @@
+python
+machine learning
+data analysis
+statistics
+sql
+pandas
+scikit-learn
+data visualization
+R
+predictive modeling
+experimental design
+A/B testing
+big data technologies (e.g., Spark, Hadoop)
+ETL
+cloud platforms (e.g., AWS, Azure, GCP)
+communication skills
+storytelling
+mathematical modeling
+optimization
+natural language processing (NLP)
+computer vision
+deep learning
+model deployment
+version control (e.g., Git)
+dashboarding (e.g., Tableau, Power BI)
+research

@@ -1,0 +1,22 @@
+HTML
+CSS
+JavaScript
+frontend frameworks (e.g., React, Angular, Vue.js)
+backend frameworks (e.g., Node.js, Django, Ruby on Rails, Spring Boot)
+databases (e.g., SQL, NoSQL)
+API development (RESTful, GraphQL)
+version control (e.g., Git)
+responsive design
+web security
+user experience (UX)
+user interface (UI)
+cross-browser compatibility
+performance optimization
+testing (unit, integration, end-to-end)
+cloud platforms (e.g., AWS, Azure, GCP)
+containerization (e.g., Docker)
+deployment strategies
+CI/CD
+server management
+web servers (e.g., Nginx, Apache)
+accessibility

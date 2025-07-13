@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ResMind – AI Resume Predictor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="container">
+    <!-- Sticky Logo + Header -->
+    <header class="header-flex">
+      <img src="{{ url_for('static', filename='logo.png') }}" alt="ResMind Logo" class="logo">
+      <div>
+        <h1>ResMind</h1>
+        <p>Discover your best-fit MNC and estimated salary from your resume.</p>
+      </div>
+    </header>
+
+    <!-- Upload Form -->
+    <form action="/" method="POST" enctype="multipart/form-data" class="upload-form">
+      <div class="form-group">
+        <label for="resume">📎 Upload Resume (PDF)</label>
+        <input type="file" id="resume" name="resume" accept=".pdf" required>
+      </div>
+
+      <div class="form-group">
+        <label for="jobrole">💼 Select Job Role</label>
+        <select name="jobrole" id="jobrole" required>
+          <option value="">-- Choose Role --</option>
+          <option value="data_scientist">Data Scientist</option>
+          <option value="ai_engineer">AI Engineer</option>
+          <option value="ml_engineer">ML Engineer</option>
+          <option value="web_developer">Web Developer</option>
+          <option value="software_engineer">Software Engineer</option>
+        </select>
+      </div>
+
+      <button type="submit">🚀 Analyze Resume</button>
+    </form>
+
+    <!-- Loader While Submitting -->
+    <div id="loader" style="display: none;" class="loader">⏳ Analyzing your resume...</div>
+
+    <!-- Result Display -->
+    {% if company and salary %}
+    <section class="result-box">
+      <h2>🏢 Likely MNC: <span>{{ company }}</span></h2>
+      <h3>💰 Estimated Salary: <span>{{ salary }}</span></h3>
+    </section>
+    {% endif %}
+
+    <!-- Resume Section Breakdown -->
+    {% if sections %}
+    <section class="section-summary">
+      <h3>📄 Resume Overview</h3>
+      {% for key, value in sections.items() %}
+        <div class="section-block">
+          <h4>{{ key.capitalize() }}</h4>
+          <pre>{{ value.strip() or "Not Found" }}</pre>
+        </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+  </main>
+
+  <!-- JS: Loader + Fade-in Animation -->
+  <script>
+    window.addEventListener("load", () => {
+      document.body.classList.add("loaded");
+    });
+
+    const form = document.querySelector("form");
+    const loader = document.getElementById("loader");
+    form.addEventListener("submit", function () {
+      loader.style.display = "block";
+    });
+  </script>
+</body>
+</html>

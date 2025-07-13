@@ -1,0 +1,32 @@
+python
+machine learning
+deep learning
+neural networks
+tensorflow
+pytorch
+natural language processing (NLP)
+computer vision
+reinforcement learning
+algorithm development
+model deployment
+MLOps
+cloud platforms (e.g., AWS, Azure, GCP)
+Kubernetes
+Docker
+API development
+software engineering principles
+data structures
+algorithms
+distributed systems
+high-performance computing
+mathematics
+linear algebra
+calculus
+probability
+statistics
+ethical AI
+explainable AI
+research and development
+C++
+Java
+GPU programming

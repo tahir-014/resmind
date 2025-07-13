@@ -1,0 +1,24 @@
+programming languages (e.g., Python, Java, C++, Go, C#)
+data structures
+algorithms
+object-oriented programming (OOP)
+software design patterns
+version control (e.g., Git)
+testing (unit, integration, system)
+debugging
+problem-solving
+system architecture
+API design
+database management
+cloud computing (e.g., AWS, Azure, GCP)
+operating systems (Linux, Windows, macOS)
+networking
+security principles
+CI/CD
+agile methodologies (Scrum, Kanban)
+containerization (e.g., Docker, Kubernetes)
+distributed systems
+performance optimization
+code review
+documentation
+communication skills
