@@ -37,7 +37,6 @@ ResMind/
 │   └── index.html        # Frontend layout
 │
 ├── app.py                # Main Flask backend
-├── model/                # Optional: if storing ML logic
 └── README.md             # This file
 ```
 
@@ -60,8 +59,7 @@ ResMind/
 
 * **Frontend**: HTML, CSS, 
 * **Backend**: Python, Flask
-* **Parsing**: `PyPDF2`, `nltk`, `re`
-* **ML (Optional)**: Scikit-learn (if enhanced with models)
+
 
 ---
 
